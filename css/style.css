@@ -205,6 +205,7 @@ p,
 .section3 {
     width: 100%;
     height: 100vh;
+    /* height: 110vh; */
     padding: 80px 200px 0 300px;
 }
 
@@ -243,6 +244,7 @@ h5 {
     background-color: black;
     width: 100%;
     height: 45vh;
+    /* height: 50vh; */
 }
 
 .sec4_container {
@@ -281,7 +283,8 @@ h5 {
     width: 100%;
     height: 35vh;
     padding: 80px 80px 80px 120px;
-    height: 47vh;
+    /* height: 47vh; */
+    height: 50vh;
 
 }
 
@@ -692,6 +695,11 @@ hr {
         height: 120vh;
     }
 }
+@media screen and (min-width: 1092){
+    hr{
+        width: 70%;
+    }
+}
 /* @media screen and (min-width: 1280){
     .section5{
         height: 70vh;
@@ -707,5 +715,14 @@ hr {
     }
     .section_4{
         height: 70vh;
+    }
+} */
+/* @media screen and (max-width: 627){
+    .section_7 .taxt_box {
+        margin-right: 100px;
+    }
+    .section_7 .taxt_box .social_media{
+        flex: none;
+        margin: 0px 0px 0px 0px;
     }
 } */
